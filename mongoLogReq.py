@@ -20,7 +20,7 @@ def download_file(worker_url, file_name, output_folder):
 
     # Headers with auth-token
     headers = {
-        'auth-token': 'jwrld999'
+        'auth-token': os.getenv('AUTH_TOKEN')
     }
 
     try:

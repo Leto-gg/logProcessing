@@ -33,3 +33,10 @@
 2024-02-12 14:54:43,931:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/logs.csv
 2024-02-12 14:54:43,931:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
 2024-02-12 14:54:44,080:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 15:02:33,887:INFO:Querying file list from: https://log-query.deanlaughing.workers.dev
+2024-02-12 15:02:34,737:INFO:Received response from query worker: 200
+2024-02-12 15:02:34,738:INFO:Received file list: ['https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/logs.csv', 'https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv']
+2024-02-12 15:02:34,738:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/logs.csv
+2024-02-12 15:02:34,915:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/logs.csv
+2024-02-12 15:02:34,915:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 15:02:35,258:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv
