@@ -13,9 +13,13 @@ def read_csv(file_path):
     return data
 
 def process_data(data):
-    """Process the data. Modify this function based on your needs."""
-    # Implement your data processing logic here
-    return data
+    """Process the data by adding an extra comma (empty field) to each row."""
+    processed_data = []
+    for row in data:
+        # Add an empty field to the end of each row
+        modified_row = row + ['']
+        processed_data.append(modified_row)
+    return processed_data
 
 def write_csv(file_path, data):
     """Write data to a CSV file."""
