@@ -65,13 +65,16 @@ def process_logs(input_directory, output_directory):
             task_id = submit_url_to_cuckoo(url)
             if task_id is not None:
                 print(f"Task ID for URL {url}: {task_id}")
-                task_ids.append(task_id)
+                task_ids.append(str(task_id))
 
-        # Write task IDs to corresponding file in logReports folder
+        # Read the existing report file, append task IDs, and rewrite it
         report_file_path = os.path.join(output_directory, f"report_{csv_file}")
-        with open(report_file_path, 'a') as f:
-            for task_id in task_ids:
-                f.write(f"{task_id}\n")
+        with open(report_file_path, 'r') as f:
+            lines = f.readlines()
+
+        with open(report_file_path, 'w') as f:
+            for line, task_id in zip(lines, task_ids):
+                f.write(f"{line.strip()},{task_id}\n")
 
 # Example usage
 input_directory = 'logs'
