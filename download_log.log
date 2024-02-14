@@ -19,3 +19,64 @@
 2024-02-11 23:57:15,035:INFO:File downloaded successfully: /home/major-shepard/Documents/LargeFieldAnalyzer/logProcessing/logs/logs.csv
 2024-02-11 23:57:15,035:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
 2024-02-11 23:57:15,335:INFO:File downloaded successfully: /home/major-shepard/Documents/LargeFieldAnalyzer/logProcessing/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 14:54:04,429:INFO:Querying file list from: https://log-query.deanlaughing.workers.dev
+2024-02-12 14:54:05,186:INFO:Received response from query worker: 200
+2024-02-12 14:54:05,186:INFO:Received file list: ['https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/logs.csv', 'https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv']
+2024-02-12 14:54:05,187:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/logs.csv
+2024-02-12 14:54:05,402:INFO:File downloaded successfully: /home/major-shepard/Documents/LargeFieldAnalyzer/logProcessing/logs/logs.csv
+2024-02-12 14:54:05,403:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 14:54:05,577:INFO:File downloaded successfully: /home/major-shepard/Documents/LargeFieldAnalyzer/logProcessing/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 14:54:43,025:INFO:Querying file list from: https://log-query.deanlaughing.workers.dev
+2024-02-12 14:54:43,774:INFO:Received response from query worker: 200
+2024-02-12 14:54:43,774:INFO:Received file list: ['https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/logs.csv', 'https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv']
+2024-02-12 14:54:43,774:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/logs.csv
+2024-02-12 14:54:43,931:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/logs.csv
+2024-02-12 14:54:43,931:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 14:54:44,080:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 15:02:33,887:INFO:Querying file list from: https://log-query.deanlaughing.workers.dev
+2024-02-12 15:02:34,737:INFO:Received response from query worker: 200
+2024-02-12 15:02:34,738:INFO:Received file list: ['https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/logs.csv', 'https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv']
+2024-02-12 15:02:34,738:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/logs.csv
+2024-02-12 15:02:34,915:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/logs.csv
+2024-02-12 15:02:34,915:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 15:02:35,258:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 15:08:32,142:INFO:Querying file list from: None
+2024-02-12 15:08:32,143:ERROR:Error in main function. Error: Invalid URL 'None': No schema supplied. Perhaps you meant http://None?
+2024-02-12 15:08:38,908:INFO:Querying file list from: None
+2024-02-12 15:08:38,908:ERROR:Error in main function. Error: Invalid URL 'None': No schema supplied. Perhaps you meant http://None?
+2024-02-12 15:11:44,799:ERROR:Error in main function. Error: name 'load_dotenv' is not defined
+2024-02-12 15:12:32,506:INFO:Querying file list from: https://log-query.deanlaughing.workers.dev
+2024-02-12 15:12:32,920:INFO:Received response from query worker: 200
+2024-02-12 15:12:32,921:INFO:Received file list: ['https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/logs.csv', 'https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv']
+2024-02-12 15:12:32,921:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/logs.csv
+2024-02-12 15:12:33,065:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/logs.csv
+2024-02-12 15:12:33,065:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 15:12:33,525:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 15:21:38,780:INFO:Querying file list from: https://log-query.deanlaughing.workers.dev
+2024-02-12 15:21:39,008:INFO:Received response from query worker: 200
+2024-02-12 15:21:39,008:INFO:Received file list: ['https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/logs.csv', 'https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv']
+2024-02-12 15:21:39,008:INFO:Attempting to download file: https://lively-credit-ddf3.deanlaughing.workers.dev/logs.csv
+2024-02-12 15:21:39,008:ERROR:Error downloading logs.csv from https://lively-credit-ddf3.deanlaughing.workers.dev/logs.csv. Error: [Errno 13] Permission denied: '/path'
+2024-02-12 15:21:39,008:INFO:Attempting to download file: https://lively-credit-ddf3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 15:21:39,008:ERROR:Error downloading 84584488-20f1-7026-f281-339efa28feac_sample.csv from https://lively-credit-ddf3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv. Error: [Errno 13] Permission denied: '/path'
+2024-02-12 15:25:05,771:INFO:Querying file list from: https://log-query.deanlaughing.workers.dev
+2024-02-12 15:25:06,367:INFO:Received response from query worker: 200
+2024-02-12 15:25:06,368:INFO:Received file list: ['https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/logs.csv', 'https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv']
+2024-02-12 15:25:06,368:INFO:Attempting to download file: https://lively-credit-ddf3.deanlaughing.workers.dev/logs.csv
+2024-02-12 15:25:06,368:ERROR:Error downloading logs.csv from https://lively-credit-ddf3.deanlaughing.workers.dev/logs.csv. Error: [Errno 13] Permission denied: '/path'
+2024-02-12 15:25:06,368:INFO:Attempting to download file: https://lively-credit-ddf3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 15:25:06,368:ERROR:Error downloading 84584488-20f1-7026-f281-339efa28feac_sample.csv from https://lively-credit-ddf3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv. Error: [Errno 13] Permission denied: '/path'
+2024-02-12 15:25:17,168:INFO:Querying file list from: https://log-query.deanlaughing.workers.dev
+2024-02-12 15:25:17,669:INFO:Received response from query worker: 200
+2024-02-12 15:25:17,669:INFO:Received file list: ['https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/logs.csv', 'https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv']
+2024-02-12 15:25:17,669:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/logs.csv
+2024-02-12 15:25:17,868:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/logs.csv
+2024-02-12 15:25:17,868:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 15:25:18,008:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 23:54:39,187:INFO:Querying file list from: https://log-query.deanlaughing.workers.dev
+2024-02-12 23:54:39,895:INFO:Received response from query worker: 200
+2024-02-12 23:54:39,895:INFO:Received file list: ['https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/logs.csv', 'https://5ad2ddf9aa06683d90aa5df60149f527.r2.cloudflarestorage.com/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv']
+2024-02-12 23:54:39,895:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/logs.csv
+2024-02-12 23:54:40,177:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/logs.csv
+2024-02-12 23:54:40,177:INFO:Attempting to download file: https://lively-credit-66f3.deanlaughing.workers.dev/84584488-20f1-7026-f281-339efa28feac_sample.csv
+2024-02-12 23:54:40,494:INFO:File downloaded successfully: /home/major-shepard/Documents/logProcessing/logs/84584488-20f1-7026-f281-339efa28feac_sample.csv

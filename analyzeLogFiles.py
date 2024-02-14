@@ -1,9 +1,14 @@
 import pandas as pd
 import re
 import subprocess
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
+
+def list_csv_files(directory):
+    """List all CSV files in the given directory."""
+    return [f for f in os.listdir(directory) if f.endswith('.csv')]
 
 def extract_urls_from_csv(file_path):
     # Read the CSV file
@@ -50,12 +55,28 @@ def extract_task_id_from_result(result):
         print("Task ID not found in the output.")
         return None
 
-# Extract URLs from the CSV file
-file_path = './logs/logs.csv'
-urls = extract_urls_from_csv(file_path)
+def process_logs(input_directory, output_directory):
+    for csv_file in list_csv_files(input_directory):
+        file_path = os.path.join(input_directory, csv_file)
+        urls = extract_urls_from_csv(file_path)
 
-for url in urls:
-    task_id = submit_url_to_cuckoo(url)
-    if task_id is not None:
-        print(f"Task ID for URL {url}: {task_id}")
-    # Perform additional processing if necessary
+        task_ids = []
+        for url in urls:
+            task_id = submit_url_to_cuckoo(url)
+            if task_id is not None:
+                print(f"Task ID for URL {url}: {task_id}")
+                task_ids.append(str(task_id))
+
+        # Read the existing report file, append task IDs, and rewrite it
+        report_file_path = os.path.join(output_directory, f"report_{csv_file}")
+        with open(report_file_path, 'r') as f:
+            lines = f.readlines()
+
+        with open(report_file_path, 'w') as f:
+            for line, task_id in zip(lines, task_ids):
+                f.write(f"{line.strip()},{task_id}\n")
+
+# Example usage
+input_directory = 'logs'
+output_directory = 'logReports'
+process_logs(input_directory, output_directory)
