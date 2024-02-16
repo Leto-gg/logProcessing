@@ -30,6 +30,7 @@ def get_user_email(cognito_client, user_pool_id, user_id):
 # Function to send email
 def send_email(toaddr, subject, body, attachment_path=None):
     fromaddr = "your_email@example.com"  # Sender's email address
+    smtp_password = os.getenv('SMTP_PASSWORD')
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
@@ -49,7 +50,7 @@ def send_email(toaddr, subject, body, attachment_path=None):
     # SMTP configuration
     server = smtplib.SMTP('smtp.example.com', 587)  # SMTP server address and port
     server.starttls()
-    server.login(fromaddr, "YourPassword")  # Sender's email password
+    server.login(fromaddr, smtp_password)  # Use SMTP password from .env file  # Sender's email password
     text = msg.as_string()
 
     # Send the email
