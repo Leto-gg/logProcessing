@@ -1,6 +1,6 @@
 # LogProcessing (LargeFieldAnalyzer)
 
-Requirements: This set of programs need to be used in conjunction with the LargeFieldAnalyzer
+Requirements: This set of programs need to be used in conjunction within the LargeFieldAnalyzer environment. 
 
 This is code separated from the LargeFieldAnalyzer
 
